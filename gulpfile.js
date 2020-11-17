@@ -3,6 +3,7 @@ const scss = require('gulp-sass');
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const imagemin = require('gulp-imagemin');
+const uglify = require('gulp-uglify');
 const del = require('del');
 const browserSync = require('browser-sync').create();
 
